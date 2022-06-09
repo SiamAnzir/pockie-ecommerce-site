@@ -16,6 +16,27 @@ const Navbar = () => {
                         <li className="twitter"><img src={twitter} alt="twitter"/></li>
                         <li className="mail"><img src={mail} alt="mail"/></li>
                     </div>
+                    <div className="menu">
+                        <div className="menu-item1">
+                            <span className="introduce-btn">Introduce</span>
+                        </div>
+                        <p className="dot1">.</p>
+                        <div className="menu-item2">
+                            <span className="partner-incentives-btn">Partner Incentives</span>
+                        </div>
+                        <p className="dot2">.</p>
+                        <div className="menu-item3">
+                            <span className="promotion-btn">Promotion</span>
+                        </div>
+                        <p className="dot3">.</p>
+                        <div className="menu-item4">
+                            <span className="contact-btn">Contact</span>
+                        </div>
+                        <p className="dot4">.</p>
+                        <div className="menu-item5">
+                            <span className="faq-btn">Frequently asked questions</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
