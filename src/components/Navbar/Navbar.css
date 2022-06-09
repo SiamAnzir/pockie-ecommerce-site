@@ -3,14 +3,14 @@
     width: 1680px;
     height: 224px;
     left: 12px;
-    top: 0px;
+    top: 0;
 }
 .header-top-nav {
     position: absolute;
     height: 56px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
     background: #000000;
 }
 .content {
@@ -24,34 +24,118 @@
     position: absolute;
     width: 112px;
     height: 16px;
-    left: 0px;
+    left: 0;
     top: 12px;
 }
-.facebook {
+.social li {
     position: absolute;
     width: 16px;
     height: 16px;
-    left: 0px;
     top: calc(50% - 16px/2);
+}
+.facebook {
+    left: 0;
 }
 .linkedin {
-    position: absolute;
-    width: 16px;
-    height: 16px;
     left: 32px;
-    top: calc(50% - 16px/2);
 }
 .twitter {
-    position: absolute;
-    width: 16px;
-    height: 16px;
     left: 64px;
-    top: calc(50% - 16px/2);
 }
 .mail {
-    position: absolute;
-    width: 16px;
-    height: 16px;
     left: 96px;
-    top: calc(50% - 16px/2);
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Work Sans';
+    padding: 0;
+    position: absolute;
+    width: 606px;
+    height: 40px;
+    left: 530px;
+    top: 0;
+}
+.menu div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    height: 40px;
+    background: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+.menu-item1 {
+    width: 83px;
+    order: 0;
+}
+.menu-item2 {
+    width: 142px;
+    order: 2;
+}
+.menu-item3 {
+    width: 88px;
+    order: 4;
+}
+.menu-item4 {
+    width: 71px;
+    order: 6;
+}
+.menu-item5 {
+    width: 206px;
+    order: 8;
+}
+.menu p {
+    width: 4px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none;
+    flex-grow: 0;
+}
+.dot1 {
+    order: 1;
+}
+.dot2 {
+    order: 3;
+}
+.dot3 {
+    order: 5;
+}
+.dot4 {
+    order: 7;
+}
+.menu span {
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.introduce-btn {
+    width: 67px;
+}
+.partner-incentives-btn {
+    width: 126px;
+}
+.promotion-btn {
+    width: 72px;
+}
+.contact-btn {
+    width: 55px;
+}
+.faq-btn {
+    width: 190px;
 }
