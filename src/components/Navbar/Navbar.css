@@ -13,7 +13,7 @@
     top: 0;
     background: #000000;
 }
-.content {
+.header-top-nav-content {
     position: absolute;
     width: 1136px;
     left: calc(50% - 1136px/2 + 8px);
@@ -138,4 +138,71 @@
 }
 .faq-btn {
     width: 190px;
+}
+.header-nav1 {
+    position: absolute;
+    height: 112px;
+    left: 0;
+    right: 0;
+    top: 56px;
+    background: #000000;
+}
+.header-nav1-content {
+    position: absolute;
+    width: 1152px;
+    left: calc(50% - 1152px/2);
+    top: 21.43%;
+    bottom: 21.43%;
+}
+.logo {
+    position: absolute;
+    left: 1.39%;
+    right: 91.32%;
+    top: -1.56%;
+    bottom: -2.22%;
+}
+.cart-logo {
+    position: absolute;
+    width: 56px;
+    height: 37px;
+    left: 1096px;
+    top: 7px;
+}
+.cart {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 13px;
+}
+.badge {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 8px;
+    position: absolute;
+    width: 8px;
+    height: 24px;
+    left: 17px;
+    top: 0;
+    background: #FF8154;
+    border-radius: 20px;
+}
+.badge span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.favourite {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1032px;
+    top: 20px;
 }
