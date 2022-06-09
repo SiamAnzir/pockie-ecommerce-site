@@ -12,42 +12,7 @@
   height: 5861px;
   background: #FFFFFF;
 }
-.header {
-  position: absolute;
-  width: 1680px;
-  height: 224px;
-  left: 12px;
-  top: 0px;
-}
-.header-top-nav {
-  position: absolute;
-  height: 56px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  background: #000000;
-}
-.content {
-  position: absolute;
-  width: 1136px;
-  left: calc(50% - 1136px/2 + 8px);
-  top: 14.29%;
-  bottom: 14.29%;
-}
-.social {
-  position: absolute;
-  width: 112px;
-  height: 16px;
-  left: 0px;
-  top: 12px;
-}
-.social li {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  left: 0px;
-  top: calc(50% - 16px/2);
-}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
