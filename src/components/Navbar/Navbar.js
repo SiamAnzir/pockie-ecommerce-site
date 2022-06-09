@@ -4,12 +4,15 @@ import facebook from "../../assets/social/facebook.png";
 import linkedin from "../../assets/social/linkedin.png";
 import twitter from "../../assets/social/twitter.png";
 import mail from "../../assets/social/mail.png";
+import logo from "../../assets/logo/logo.png";
+import cart from "../../assets/logo/cart.png";
+import favourite from "../../assets/logo/favorite.png";
 
 const Navbar = () => {
     return(
         <div className="header">
             <div className="header-top-nav">
-                <div className="content">
+                <div className="header-top-nav-content">
                     <div className="social">
                         <li className="facebook"><img src={facebook} alt="facebook"/></li>
                         <li className="linkedin"><img src={linkedin} alt="linkedin"/></li>
@@ -37,6 +40,18 @@ const Navbar = () => {
                             <span className="faq-btn">Frequently asked questions</span>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="header-nav1">
+                <div className="header-nav1-content">
+                    <div className="logo"><img src={logo} alt="logo"/></div>
+                    <div className="cart-logo">
+                        <div className="badge">
+                            <span>3</span>
+                        </div>
+                        <div className="cart"><img src={cart} alt="cart"/></div>
+                    </div>
+                    <div className="favourite"><img src={favourite} alt="favourite"/></div>
                 </div>
             </div>
         </div>
