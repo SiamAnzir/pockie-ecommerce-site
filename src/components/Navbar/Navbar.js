@@ -10,6 +10,7 @@ import favourite from "../../assets/logo/favorite.png";
 import arrow from "../../assets/logo/arrow-down.png";
 import truck from "../../assets/logo/truck.png";
 import user from "../../assets/logo/user.png";
+import list from "../../assets/logo/list-category.png";
 
 const Navbar = () => {
     return(
@@ -52,7 +53,7 @@ const Navbar = () => {
                         <div className="search-filter">
                             <input className="search-input" type="text" placeholder="  What are you looking for?"/>
                             <div className="dropdown">
-                                <text>Category</text>
+                                <span>Category</span>
                                 <div className="arrow-down">
                                     <img src={arrow} alt="arrow"/>
                                 </div>
@@ -71,6 +72,28 @@ const Navbar = () => {
             </div>
             <div className="header-nav2">
                 <div className="header-nav2-content">
+                    <div className="category-menu">
+                        <div className="menu-content">
+                            <img src={list} alt="list"/>
+                            <p>Category</p>
+                        </div>
+                        <img src={arrow} alt="arrow"/>
+                    </div>
+                    <div className="nav2-menu">
+                        <div className="nav2-menu1">
+                            <p>Home</p>
+                        </div>
+                        <div className="nav2-menu2">
+                            <p>New Product</p>
+                            <img src={arrow} alt="arrow"/>
+                        </div>
+                        <div className="nav2-menu3">
+                            <p>Promotion</p>
+                            <div className="nav2-badge">
+                                <span>Hot</span>
+                            </div>
+                        </div>
+                    </div>
                     <div className="sub-menu">
                         <div className="sub-menu-item1">
                             <div className="sub-menu-item1-content">
