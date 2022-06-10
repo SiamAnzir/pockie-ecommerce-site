@@ -49,6 +49,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: 'Work Sans';
     padding: 0;
     position: absolute;
     width: 606px;
@@ -197,12 +198,13 @@
     background: #F5F5F5;
     border-radius: 8px;
 }
-.dropdown text {
+.dropdown span{
     position: absolute;
     width: 60px;
     height: 24px;
     left: 16px;
     top: 12px;
+    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -230,11 +232,13 @@
     width: 48px;
     height: 24px;
     left: 25px;
+    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
+
 }
 .cart-logo {
     position: absolute;
@@ -297,6 +301,164 @@
     top: 14.29%;
     bottom: 14.29%;
 }
+.category-menu{
+    position: absolute;
+    width: 189px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    border-radius: 6px;
+}
+.category-menu img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 16px;
+    top: 8px;
+}
+.menu-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    position: absolute;
+    width: 93px;
+    height: 24px;
+    left: 16px;
+    top: 8px;
+}
+.menu-content img {
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.menu-content p{
+    width: 61px;
+    margin-left: 35px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.nav2-menu{
+    position: absolute;
+    width: 383px;
+    height: 40px;
+    left: 349px;
+    top: 0;
+}
+.nav2-menu1 {
+    position: absolute;
+    width: 73px;
+    height: 40px;
+    left: 10px;
+    top: -6px;
+    border-radius: 6px;
+}
+.nav2-menu1 p{
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+.nav2-menu2 {
+    position: absolute;
+    width: 161px;
+    height: 40px;
+    left: 90px;
+    top: -6px;
+    border-radius: 6px;
+}
+.nav2-menu2 p{
+    position: absolute;
+    width: 89px;
+    height: 24px;
+    left: 16px;
+    /* Paragraph/Medium */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* Black */
+
+    color: #000000;
+
+}
+.nav2-menu2 img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 36px;
+    top: 14px;
+}
+.nav2-menu3 {
+    position: absolute;
+    width: 149px;
+    height: 40px;
+    left: 230px;
+    top: -6px;
+    border-radius: 6px;
+}
+.nav2-menu3 p {
+    position: absolute;
+    width: 72px;
+    height: 24px;
+    left: 16px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.nav2-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 41px;
+    height: 24px;
+    right: 26px;
+    top: 14px;
+    background: #FF8154;
+    border-radius: 24px;
+}
+.nav2-badge span{
+    width: 25px;
+    height: 24px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 .sub-menu {
     display: flex;
     flex-direction: row;
@@ -331,6 +493,7 @@
 .sub-menu-item1-content span {
     width: 115px;
     height: 24px;
+    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -350,7 +513,11 @@
 .sub-menu-item2 {
     width: 173px;
     height: 40px;
+
     border-radius: 6px;
+
+    /* Inside auto layout */
+
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -377,6 +544,7 @@
 .sub-menu-item2-content span {
     width: 92px;
     height: 24px;
+    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
