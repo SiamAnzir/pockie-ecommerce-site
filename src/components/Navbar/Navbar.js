@@ -7,6 +7,7 @@ import mail from "../../assets/social/mail.png";
 import logo from "../../assets/logo/logo.png";
 import cart from "../../assets/logo/cart.png";
 import favourite from "../../assets/logo/favorite.png";
+import arrow from "../../assets/logo/arrow-down.png";
 
 const Navbar = () => {
     return(
@@ -45,6 +46,20 @@ const Navbar = () => {
             <div className="header-nav1">
                 <div className="header-nav1-content">
                     <div className="logo"><img src={logo} alt="logo"/></div>
+                    <div className="search-bar">
+                        <div className="search-filter">
+                            <div className="search-input">
+                                <text>What are you looking for?</text>
+                            </div>
+                            <div className="dropdown">
+                                <text>Category</text>
+                                <div className="arrow-down">
+                                    <img src={arrow} alt="arrow"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="search-btn"><p>Search</p></div>
+                    </div>
                     <div className="cart-logo">
                         <div className="badge">
                             <span>3</span>
