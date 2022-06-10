@@ -8,6 +8,8 @@ import logo from "../../assets/logo/logo.png";
 import cart from "../../assets/logo/cart.png";
 import favourite from "../../assets/logo/favorite.png";
 import arrow from "../../assets/logo/arrow-down.png";
+import truck from "../../assets/logo/truck.png";
+import user from "../../assets/logo/user.png";
 
 const Navbar = () => {
     return(
@@ -48,9 +50,7 @@ const Navbar = () => {
                     <div className="logo"><img src={logo} alt="logo"/></div>
                     <div className="search-bar">
                         <div className="search-filter">
-                            <div className="search-input">
-                                <text>What are you looking for?</text>
-                            </div>
+                            <input className="search-input" type="text" placeholder="  What are you looking for?"/>
                             <div className="dropdown">
                                 <text>Category</text>
                                 <div className="arrow-down">
@@ -67,6 +67,24 @@ const Navbar = () => {
                         <div className="cart"><img src={cart} alt="cart"/></div>
                     </div>
                     <div className="favourite"><img src={favourite} alt="favourite"/></div>
+                </div>
+            </div>
+            <div className="header-nav2">
+                <div className="header-nav2-content">
+                    <div className="sub-menu">
+                        <div className="sub-menu-item1">
+                            <div className="sub-menu-item1-content">
+                                <img src={truck} alt="truck"/>
+                                <span>Track Your Order</span>
+                            </div>
+                        </div>
+                        <div className="sub-menu-item2">
+                            <div className="sub-menu-item2-content">
+                                <img src={user} alt="user"/>
+                                <span>Sign In/Register</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
