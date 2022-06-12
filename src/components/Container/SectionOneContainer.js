@@ -1,9 +1,9 @@
 import React from "react";
-import "../Container/PrimaryContainer.css";
+import "./SectionOneContainer.css";
 import arrowLeft from "../../assets/container/arrow-left.png";
 import arrowRight from "../../assets/container/arrow-right.png";
 
-const PrimaryContainer = () => {
+const SectionOneContainer = () => {
     return(
         <>
             <div className="section-one">
@@ -115,4 +115,4 @@ const PrimaryContainer = () => {
     )
 }
 
-export default PrimaryContainer;
+export default SectionOneContainer;
