@@ -146,25 +146,25 @@
     top: 0;
     background: #FFFFFF;
 }
-.dot1{
+.dot-one{
     width: 4px;
     left: 44px;
 }
-.dot2{
+.dot-two{
     width: 24px;
     left: 12px;
     background: #FFFFFF;
     border-radius: 20px;
 }
-.dot3{
+.dot-three{
     width: 4px;
     left: 56px;
 }
-.dot4{
+.dot-four{
     width: 4px;
     left: 68px;
 }
-.dot5{
+.dot-five{
     width: 4px;
     left: 0;
 }
