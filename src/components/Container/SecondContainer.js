@@ -1,5 +1,5 @@
 import React from "react";
-import "./SectionTwoContainer.css";
+import "./SecondContainer.css";
 import arrowLeft from "../../assets/container/arrow-left.png";
 import arrowRight from "../../assets/container/arrow-right.png";
 import realEstate from "../../assets/container/real-estate.png";
@@ -9,7 +9,7 @@ import glasses from "../../assets/container/glasses.png";
 import cosmetics from "../../assets/container/cosmetic.png";
 import highGrade from "../../assets/container/_drink.png";
 
-const SectionTwoContainer = () =>{
+const SecondContainer = () =>{
     return(
         <>
             <div className="section-two">
@@ -103,4 +103,4 @@ const SectionTwoContainer = () =>{
     )
 }
 
-export default SectionTwoContainer;
+export default SecondContainer;
