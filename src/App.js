@@ -2,8 +2,9 @@ import React, {useEffect,useState} from "react";
 import './App.css';
 import {fetchAllProductsData} from "../src/api/index"
 import Navbar from "./components/Navbar/Navbar";
-import SectionOneContainer from "./components/Container/SectionOneContainer";
-import SectionTwoContainer from "./components/Container/SectionTwoContainer";
+import FirstContainer from "./components/Container/FirstContainer";
+import SecondContainer from "./components/Container/SecondContainer";
+import ProductContainer from "./components/Container/ProductContainer";
 
 const App = () => {
     const [productData,setProductData] = useState({});
@@ -20,8 +21,9 @@ const App = () => {
     return (
         <section className="home-page">
             <Navbar/>
-            <SectionOneContainer/>
-            <SectionTwoContainer/>
+            <FirstContainer/>
+            <SecondContainer/>
+            <ProductContainer/>
         </section>
     );
 }
