@@ -1,0 +1,65 @@
+.section-four {
+    position: absolute;
+    width: 1680px;
+    height: 330px;
+    left: 12px;
+    top: 1930px;
+}
+.heading {
+    position: absolute;
+    width: 148px;
+    height: 28px;
+    left: 270px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+.small-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 1180px;
+    top:15px;
+    border-radius: 6px;
+}
+.small-btn span{
+    width: 48px;
+    height: 24px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #68D237;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.slider-btn {
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    left: 1364px;
+    top: 15px;
+}
+.product-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    position: absolute;
+    width: 564px;
+    height: 270px;
+    left: 270px;
+    top: 60px;
+
+}
